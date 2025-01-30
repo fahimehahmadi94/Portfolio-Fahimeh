@@ -29,8 +29,13 @@ function SectionRight() {
             <li><a href="">Skills</a></li>
             <li><a href="">Testimonials</a></li>
             <li><a href="">Contact</a></li>
-            <li><button type="button">Resume</button></li>
+            <li><button type="button" onClick={downloadResume} className="btn-resume">Resume</button></li>
         </ul>
-
     )
+}
+function downloadResume() {
+    const link = document.createElement('a');
+    link.href = '/resume.pdf';
+    link.download = 'resume.pdf';
+    link.click();
 }

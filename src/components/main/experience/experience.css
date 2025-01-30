@@ -1,0 +1,23 @@
+.experience-card {
+    display        : flex;
+    justify-content: space-between;
+    padding        : 20px 90px;
+
+    li {
+        display       : flex;
+        flex-direction: column;
+        color         : #ddd;
+        font-size     : 2.5em;
+        gap           : 6px;
+        font-weight: 600;
+
+        .experience-icon {
+            color: #8750f7;
+        }
+
+        .experience-title {
+            font-size: 0.6em;
+            font-weight: 400;
+        }
+    }
+}
