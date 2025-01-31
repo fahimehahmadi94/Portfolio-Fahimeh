@@ -29,7 +29,11 @@ function SectionRight() {
             <li><a href="">Skills</a></li>
             <li><a href="">Testimonials</a></li>
             <li><a href="">Contact</a></li>
-            <li><button type="button" onClick={downloadResume} className="btn-resume">Resume</button></li>
+            <li>
+                <button type="button" onClick={downloadResume} className='btn'>
+                    Resume &nbsp;<i className="bi bi-download"></i>
+                </button>
+            </li>
         </ul>
     )
 }

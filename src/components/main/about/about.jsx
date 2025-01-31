@@ -22,7 +22,7 @@ function Image() {
 function Info() {
     return (
         <div className='info'>
-            <h1>Hi, I am Fahimeh - Web Developer</h1>
+            <h1 className='txt-gradient'>Hi, I am Fahimeh - Web Developer</h1>
             <p>I design and code beautifully simple things and i love what i do. Just simple like that!</p>
             <ul className="social-media">
                 <li className='social-media-icon'>
