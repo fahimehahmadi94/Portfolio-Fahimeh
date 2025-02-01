@@ -76,6 +76,28 @@
             }
         }
     }
+}
 
+@media screen and (max-width: 768px) {
+    .card-skill {
+        p {
+            width : 80%;
+            margin: 8px 10%;
+        }
+    }
 
+    .box-skill {
+        flex-wrap      : wrap;
+        justify-content: space-between;
+        gap            : 8px;
+    }
+
+    .item-skill {
+        width: 32%;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .item-skill {
+        width: 45%;
+    }
 }

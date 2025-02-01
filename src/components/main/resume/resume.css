@@ -66,3 +66,9 @@ h3 {
     font-size: 0.9em;
     color    : #636363;
 }
+
+@media screen and (max-width: 768px) {
+    .resume-card {
+        flex-direction: column;
+    }
+}

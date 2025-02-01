@@ -1,9 +1,7 @@
 import './about.css'
-import MeImage from "/me.webp"
-
+import FahimehImage from "/fahiemh.webp"
 
 export default function About() {
-
     return (
         <section id='about' className='card about-card'>
             <Image />
@@ -15,7 +13,7 @@ export default function About() {
 function Image() {
     return (
         <figure className='image'>
-            <img src={MeImage} alt="Fahimeh Ahmadi" />
+            <img src={FahimehImage} alt="Fahimeh Ahmadi" />
         </figure>
     )
 }

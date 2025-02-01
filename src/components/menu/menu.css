@@ -62,7 +62,6 @@ header {
 
 
         }
-
     }
 
 }
@@ -73,4 +72,23 @@ header.scrolled {
     left      : 0;
     background: #050709;
     z-index   : 1000;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo {
+        width : 40px !important;
+        height: 40px !important;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+
+    .mail,
+    .section-right>li:not(:last-child) {
+        display: none;
+    }
 }

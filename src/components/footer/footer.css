@@ -5,4 +5,5 @@ footer {
     align-items    : center;
     justify-content: center;
     color          : #8750f7;
+    margin-top: 16px;
 }

@@ -7,7 +7,7 @@ import Contact from "./contact/contact";
 export default function Main() {
 
     return (
-        <section style={{ padding: '0 90px' }}>
+        <section className="container">
             <About />
             <Experience />
             <Resume />
