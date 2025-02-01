@@ -2,7 +2,7 @@ import './contact.css'
 
 export default function Contact() {
     return (
-        <section className='card contact-card'>
+        <section id='contact' className='card contact-card'>
             <h4 className='txt-gradient'>
                 Let's work
                 <br />

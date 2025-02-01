@@ -2,6 +2,14 @@ import "./menu.css"
 import Logo from "/logo.webp"
 
 export default function Menu() {
+    window.addEventListener("scroll", function () {
+        const navbar = document.querySelector("header");
+        if (window.scrollY > 80) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
+        }
+    });
     return (
         <header>
             <SectionLeft />
@@ -23,12 +31,10 @@ function SectionLeft() {
 function SectionRight() {
     return (
         <ul className="section-right">
-            <li><a href="">Services</a></li>
-            <li><a href="">Works</a></li>
-            <li><a href="">Resume</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Testimonials</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li>
                 <button type="button" onClick={downloadResume} className='btn'>
                     Resume &nbsp;<i className="bi bi-download"></i>

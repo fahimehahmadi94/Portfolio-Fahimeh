@@ -7,9 +7,12 @@
 
 html,
 body {
-    min-height : 100vh;
-    font-family: "Open Sans", serif;
-    overflow-y : auto;
+    min-height     : 100vh;
+    font-family    : "Open Sans", serif;
+    overflow-y     : auto;
+    scroll-behavior: smooth;
+    scrollbar-color: #8750f7 #2a1454;
+    scrollbar-width: thin;
 }
 
 a {

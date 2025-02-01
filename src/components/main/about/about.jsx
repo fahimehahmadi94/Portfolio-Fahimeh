@@ -5,7 +5,7 @@ import MeImage from "/me.webp"
 export default function About() {
 
     return (
-        <section className='card about-card'>
+        <section id='about' className='card about-card'>
             <Image />
             <Info />
         </section>

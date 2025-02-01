@@ -3,14 +3,14 @@ import './resume.css';
 
 export default function Resume() {
     return (
-        <Fragment>
+        <section id="resume">
             <h2 className='txt-gradient title-resume'>Education & Work Experience</h2>
-            <section className='card resume-card'>
+            <div className='card resume-card'>
                 <Education />
                 <Experience />
                 <PastRoles />
-            </section>
-        </Fragment>
+            </div>
+        </section>
     )
 }
 function Education() {

@@ -8,7 +8,7 @@ import Js from '/js.webp'
 
 export default function Skills() {
     return (
-        <section className='card-skill'>
+        <section id="skills" className='card-skill'>
             <h3 className='txt-gradient'>My Skills</h3>
             <p>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
             <ul className='box-skill'>
